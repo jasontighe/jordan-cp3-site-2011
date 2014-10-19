@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.powerflasher.fdt.ui.MxmlcGroup">
+<booleanAttribute key="ADVANCED_TELEMTRY" value="false"/>
+<stringAttribute key="APP_ARGUMENTS" value=""/>
+<stringAttribute key="ARGUMENTS" value="-default-size 550 400 -default-frame-rate 31 -default-background-color 0xFFFFFF -library-path {flexSDK}/frameworks/locale/en_US -debug=true"/>
+<listAttribute key="COMPILER_CONSTANTS"/>
+<stringAttribute key="COMPILER_TECHNOLOGY" value="Flex SDK"/>
+<booleanAttribute key="DISABLE_COMPILE_PROCESS" value="false"/>
+<stringAttribute key="FLEX_SDK_NAME" value="Flex_sdk_4.1.0.16076"/>
+<booleanAttribute key="KILL_PREVIOUS_VIEWER" value="false"/>
+<booleanAttribute key="KILL_PREVIUOS_VIEWER" value="false"/>
+<stringAttribute key="LAUNCHER_DEPENDENCIES" value="[Self]"/>
+<stringAttribute key="MAIN_CLASS" value="src/com/jordan/cp/utils/XmlFormatter.as"/>
+<booleanAttribute key="NEW_WINDOW_EACH_LAUNCH" value="false"/>
+<stringAttribute key="OUTPUT" value="dist/swf/XmlFormatter.swf"/>
+<booleanAttribute key="PASS_CP" value="true"/>
+<booleanAttribute key="PASS_DEFINES" value="true"/>
+<booleanAttribute key="PASS_EXTERNS" value="true"/>
+<booleanAttribute key="PASS_MAIN_CLASS" value="true"/>
+<booleanAttribute key="PASS_RSLS" value="true"/>
+<booleanAttribute key="PASS_SWCS" value="true"/>
+<intAttribute key="PLAYER_HEIGHT" value="400"/>
+<intAttribute key="PLAYER_WIDTH" value="550"/>
+<stringAttribute key="POST_COMPILE_ANT" value=""/>
+<stringAttribute key="PRE_COMPILE_ANT" value=""/>
+<stringAttribute key="PROJECT_NAME" value="jordan_cp_site_2011"/>
+<stringAttribute key="PUBLISHER_ID" value=""/>
+<booleanAttribute key="START_DEBUGGER" value="true"/>
+<booleanAttribute key="START_SWF_ENABLED" value="false"/>
+<stringAttribute key="START_SWF_LOCATION" value=""/>
+<stringAttribute key="START_SWF_WITH" value="External SWF Viewer"/>
+<booleanAttribute key="SUPPRESS_EXCEPTION_POPUP" value="false"/>
+<booleanAttribute key="USE_GLOBAL_FCSH_LOCATION" value="true"/>
+<booleanAttribute key="USE_PROJECT_COMPILER_ARGUMENTS" value="false"/>
+<stringAttribute key="bad_container_name" value="/jordan_cp_site_2011/launc"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/jordan_cp_site_2011"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<stringAttribute key="process_factory_id" value="com.powerflasher.fdt.ui.launch.fcsh.ProcessFactory"/>
+</launchConfiguration>

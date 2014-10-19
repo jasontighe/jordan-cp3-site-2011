@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+		
+	<bg_color><![CDATA[070707]]></bg_color>
+	<site_url><![CDATA[http://www.google.com]]></site_url>
+	<jumpman_url><![CDATA[http://www.nike.com/jumpman23/index.html]]></jumpman_url>
+	
+	<subloads>
+	
+		<cookie
+			url="./flash/swf/SharedObjectGateway.swf"
+		/>
+		<content
+			url="./flash/xml/content.xml"
+		/>
+		<welcome
+			url="./flash/swf/Welcome.swf"
+		/>
+		<assets
+			url="./flash/swf/Assets.swf"
+		/>
+		<fonts_us
+			url="./flash/swf/FontsUS.swf"
+		/>
+	
+		<styles
+			url="./flash/css/jordan_flash_styles.css"
+		/>
+
+		<sounds
+			url="./flash/swf/cp_soundAssets.swf"
+		/>
+	
+	
+		<zip_images>
+				<zip 
+					type="zip_images" 
+					name="set0"
+					url="./flash/zip/cp_img_array_960x480.zip" 
+				/>
+				<!--
+				-->
+				<!-- 
+				<zip 
+					type="zip_images" 
+					name="set0"
+					url="http://c827809.r9.cf2.rackcdn.com/cp_img_array_960x480.zip" 
+				/>
+				-->
+		</zip_images>
+		
+	</subloads>
+	
+</data>

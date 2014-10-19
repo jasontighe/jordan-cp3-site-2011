@@ -1,0 +1,967 @@
+/*
+	Available fonts:
+	- Interstate-Regular
+	- Interstate-Black
+	- DIN-Regular
+	- DIN-Medium
+	- DIN-Black
+*/
+
+
+/*****************************************
+ LOADER
+*****************************************/
+.loader-debug
+{
+	font-size: 12;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FF0032;
+	letter-spacing: 0;
+	thickness: -200;
+	sharpness: 0;
+}
+
+.loader-help-header
+{
+	font-size: 20;
+	font-family: Interstate-Black;
+	text-align: center;
+	color: #ffffff;
+	letter-spacing: -.5;
+	thickness: -200;
+	sharpness: 0;
+}
+
+.loader-help-body
+{
+	font-size: 12;
+	font-family: DIN-Medium;
+	text-align: center;
+	color: #898989;
+	letter-spacing: -.5;
+	thickness: -50;
+	sharpness: 0;
+}
+
+.loader-help-label
+{
+	font-size: 12;
+	font-family: DIN-Black; /* DIN-Bold CONFLICT WITH REG IN FONT */
+	text-align: center;
+	color: #ffffff;
+	letter-spacing: 0;
+	thickness: -200;
+	sharpness: 0;
+}
+
+.loader-help-percent
+{
+	font-size: 18;
+	font-family: DIN-Black;
+	text-align: center;
+	color: #d7270a;
+	letter-spacing: -.5;
+	thickness: -200;
+	sharpness: 0;
+}
+
+.loader-counter
+{
+	font-size: 12;
+	font-family: DIN-Medium;
+	text-align: center;
+	color: #666666;
+	letter-spacing: 5;
+	thickness: 0;
+	sharpness: 0;
+}
+
+
+
+/*****************************************
+ WELCOME
+*****************************************/
+.welcome-title
+{
+	font-size: 16;
+	font-family: Interstate-Black;
+	text-align: center;
+	color: #D7270A;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.welcome-desc
+{
+	font-size: 11;
+	font-family: DIN-Medium;
+	text-align: center;
+	color: #898989;
+	letter-spacing: -9;
+	thickness: 0;
+	sharpness: 0;
+	leading: 1.5;
+}
+
+.welcome-choose
+{
+	font-size: 11;
+	font-family: Interstate-Black;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.loader-welcome-bandwidth
+{
+	font-size: 11;
+	font-family: DIN-Black; /* DIN-Bold CONFLICT WITH REG IN FONT */
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+
+/*****************************************
+ BONUS SCENE
+*****************************************/
+.bonus-exit-active
+{
+	font-size: 16;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #d7270a;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.bonus-exit-inactive
+{
+	font-size: 16;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+
+
+/*****************************************
+ CURSOR
+*****************************************/
+.cursor
+{
+	font-size: 10;
+	font-family: Interstate-Black;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+/*****************************************
+ HOTSPOT HOVERS
+*****************************************/
+.hover-content-header
+{
+	font-size: 12;
+	font-family: Interstate-Black;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.hover-content-desc
+{
+	font-size: 10;
+	font-family: DIN-Medium;
+	text-align: center;
+	color: #000000;
+	letter-spacing: -.5;
+	thickness: 0;
+	sharpness: 0;
+	leading: -2;
+}
+
+
+
+/*****************************************
+ INTERSTITIAL
+*****************************************/
+.interstitial-exit-active
+{
+	font-size: 14;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #d7270a;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.interstitial-exit-inactive
+{
+	font-size: 14;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.interstitial-header
+{
+	font-size: 16;
+	font-family: Interstate-Black;
+	text-align: center;
+	color: #ffffff;
+	letter-spacing: -.5;
+	thickness: -200;
+	sharpness: 0;
+}
+
+.interstitial-body
+{
+	font-size: 10;
+	font-family: DIN-Medium;
+	text-align: center;
+	color: #898989;
+	letter-spacing: -.5;
+	thickness: -50;
+	sharpness: 0;
+}
+
+
+/*****************************************
+ SUMMARY
+*****************************************/
+.summary-header
+{
+	font-size: 16;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: -.5;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.summary-percentage
+{
+	font-size: 16;
+	font-family: Interstate-Black;
+	text-align: right;
+	color: #D7270A;
+	letter-spacing: -.5;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.summary-bonus-scenes
+{
+	font-size: 14;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: -.5;
+	thickness: 0;
+	sharpness: -1;
+}
+
+.summary-bonus-content
+{
+	font-size: 14;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: -.5;
+	thickness: 0;
+	sharpness: -1;
+}
+
+.summary-active-title
+{
+	font-size: 10;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.summary-active-type
+{
+	font-size: 10;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #898989;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.summary-exit-active
+{
+	font-size: 16;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #d7270a;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.summary-exit-inactive
+{
+	font-size: 16;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.summary-scroll-active
+{
+	font-size: 12;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.summary-scroll-inactive
+{
+	font-size: 12;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #464646;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.summary-scroll-title
+{
+	font-size: 12;
+	font-family: Interstate-Regular;
+	text-align: left;
+	color: #464646;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.summary-lowernav-active
+{
+	font-size: 12;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #d7270a;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.summary-lowernav-inactive
+{
+	font-size: 12;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+/*****************************************
+ VOTING
+*****************************************/
+.voting-title
+{
+	font-size: 18;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.voting-percentage
+{
+	font-size: 20;
+	font-family: Interstate-Black;
+	text-align: right;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+
+
+/*****************************************
+ EMAIL
+*****************************************/
+.email-header
+{
+	font-size: 16;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.email-desc
+{
+	font-size: 10;
+	font-family: DIN-Medium;
+	text-align: center;
+	color: #898989;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.email-name
+{
+	font-size: 10;
+	font-family: DIN-Medium;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.email-address
+{
+	font-size: 10;
+	font-family: DIN-Medium;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.email-friends
+{
+	font-size: 10;
+	font-family: DIN-Medium;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.email-message
+{
+	font-size: 10;
+	font-family: DIN-Medium;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.email-optional
+{
+	font-size: 10;
+	font-family: DIN-Medium;
+	text-align: left;
+	color: #898989;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.email-copy
+{
+	font-size: 12;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #464646;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.email-send
+{
+	font-size: 16;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.email-input
+{
+	font-size: 11;
+	font-family: Interstate-Regular;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.email-sending
+{
+	font-size: 10;
+	font-family: DIN-Medium;
+	text-align: center;
+	color: #464646;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.email-success
+{
+	font-size: 10;
+	font-family: DIN-Medium;
+	text-align: center;
+	color: #464646;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.email-fail
+{
+	font-size: 10;
+	font-family: DIN-Medium;
+	text-align: center;
+	color: #d7270a;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+
+/*****************************************
+ LOCKS
+*****************************************/
+
+.locks-bonus-content
+{
+	font-size: 11;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #d7270a;
+	letter-spacing: 0;
+	thickness: -200;
+	sharpness: 0;
+}
+
+.locks-see-stats
+{
+	font-size: 11;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: -200;
+	sharpness: 0;
+}
+
+.locks-unlocked
+{
+	font-size: 11;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: -200;
+	sharpness: 0;
+}
+
+.locks-slash
+{
+	font-size: 11;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #464646;
+	letter-spacing: 0;
+	thickness: -200;
+	sharpness: 0;
+}
+
+.locks-total
+{
+	font-size: 11;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #464646;
+	letter-spacing: 0;
+	thickness: -200;
+	sharpness: 0;
+}
+
+
+/*****************************************
+ NAVBAR - SETTINGS
+*****************************************/
+
+.help-title
+{
+	font-size: 11;
+	font-family: DIN-Black;
+	text-align: left;
+	color: #464646;
+	letter-spacing: 0;
+	thickness: -200;
+	sharpness: 0;
+}
+
+.settings-title
+{
+	font-size: 11;
+	font-family: DIN-Black;
+	text-align: left;
+	color: #464646;
+	letter-spacing: 0;
+	thickness: -200;
+	sharpness: 0;
+}
+
+.share-title
+{
+	font-size: 11;
+	font-family: DIN-Black;
+	text-align: left;
+	color: #464646;
+	letter-spacing: 0;
+	thickness: -200;
+	sharpness: 0;
+}
+
+.twitter-title
+{
+	font-size: 10;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #464646;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.facebook-title
+{
+	font-size: 10;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #464646;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.send-an-email-title
+{
+	font-size: 10;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #464646;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.commentary-title
+{
+	font-size: 10;
+	font-family: Interstate-Regular;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.commentary-on
+{
+	font-size: 9;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.commentary-off
+{
+	font-size: 9;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF ;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.real-time
+{
+	font-size: 10;
+	font-family: Interstate-Regular;
+	text-align: left;
+	color: #464646;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.nav-high-bandwidth
+{
+	font-size: 10;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #464646;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.nav-low-bandwidth
+{
+	font-size: 10;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #464646;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+
+/*****************************************
+ HELP
+*****************************************/
+.help-angles-title
+{
+	font-size: 16;
+	font-family: Interstate-Black;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.help-angles-desc
+{
+	font-size: 10;
+	font-family: DIN-Medium;
+	text-align: center;
+	color: #898989;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.help-angles-instruction
+{
+	font-size: 10;
+	font-family: DIN-Black;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.help-time-title
+{
+	font-size: 16;
+	font-family: Interstate-Black;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.help-time-desc
+{
+	font-size: 10;
+	font-family: DIN-Medium;
+	text-align: center;
+	color: #898989;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.help-time-instruction
+{
+	font-size: 10;
+	font-family: DIN-Black;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.help-zoom-title
+{
+	font-size: 16;
+	font-family: Interstate-Black;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.help-zoom-desc
+{
+	font-size: 10;
+	font-family: DIN-Medium;
+	text-align: center;
+	color: #898989;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+/*****************************************
+ VIGNETTES
+*****************************************/
+.image-viewer-title
+{
+	font-size: 14;
+	font-family: Interstate-Black;
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.image-viewer-desc
+{
+	font-size: 10;
+	font-family: Interstate-Black;
+	text-align: center;
+	color: #898989;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.locks-title
+{
+	font-size: 14;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.wallpaper-title
+{
+	font-size: 16;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: -.3;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.wallpaper-download
+{
+	font-size: 12;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: -.2;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.wallpaper-device-inactive
+{
+	font-size: 14;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #464646;
+	letter-spacing: -.1;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.wallpaper-device-active
+{
+	font-size: 14;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: -.5;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.wallpaper-sizes-inactive
+{
+	font-size: 12;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #464646;
+	letter-spacing: -.5;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.wallpaper-sizes-active
+{
+	font-size: 12;
+	font-family: Interstate-Black;
+	text-align: left;
+	color: #FFFFFF;
+	letter-spacing: -.1;
+	thickness: 0;
+	sharpness: 0;
+}
+
+.wallpaper-thumb-inactive
+{
+	font-size: 10;
+	font-family: Interstate-Regular;
+	text-align: left;
+	color: #464646;
+	letter-spacing: -.1;
+	thickness: 0;
+	sharpness: 0;
+}

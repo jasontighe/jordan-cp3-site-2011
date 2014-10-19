@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+
+	<sections>
+	
+		
+		<section name="landing">
+			<copies>
+				<copy name="welcome-title" x="10" y="152"><![CDATA[QUICK CONTROLS CHAOS]]></copy>
+				<copy name="welcome-desc" x="10" y="180"><![CDATA[IT'S POINT-GAME AND CP3'S GOT THE BALL IN HIS HANDS.<BR>CLICK TO EXPLORE THE GAME IN A WHOLE NEW WAY AND SEE HOW CHRIS<BR>USES HIS QUICKNESS TO CONTROL WHAT'S HAPPENING, ON AND OFF THE COURT.]]></copy>
+				<copy name="welcome-choose" x="10" y="264"><![CDATA[CHOOSE YOUR CONNECTION]]></copy>
+				<nav>
+					<nav_item name="welcome-high" x="126" y="10"><![CDATA[HIGH BANDWIDTH]]></nav_item>
+					<nav_item name="welcome-low" x="126" y="10"><![CDATA[LOW BANDWIDTH]]></nav_item>
+				</nav>
+			</copies>
+		</section>
+		
+		<section name="help_preloader">
+			<copies>
+				<copy name="angles_title" x="0" y="0"><![CDATA[EXPLORE ANGLES]]></copy>
+				<copy name="angles_desc" x="0" y="0"><![CDATA[PICK THE PERFECT ANGLE<br>CLICK AND DRAG YOUR MOUSE TO VIEW<br>THE COURT 160 DEGREES AROUND]]></copy>
+				<copy name="angles_instruction" x="0" y="0"><![CDATA[DRAG AND RELEASE]]></copy>
+				<copy name="time_title" x="0" y="0"><![CDATA[CONTROL TIME]]></copy>
+				<copy name="time_desc" x="0" y="0"><![CDATA[HOLD "SHIFT", THEN CLICK AND DRAG TO<BR>THE LEFT(REWIND) OR RIGHT(FAST<BR>FORWARD) TO ANY POINT IN THE VIDEO]]></copy>
+				<copy name="time_instruction" x="0" y="0"><![CDATA[DRAG AND RELEASE]]></copy>
+				<copy name="zoom_title" x="0" y="0"><![CDATA[ZOOM]]></copy>
+				<copy name="zoom_desc" x="0" y="0"><![CDATA[THE UP AND DOWN ARROW KEYS CAN BE<BR>USED TO ZOOM IN AND OUT]]></copy>
+				<copy name="zoom_instruction" x="0" y="0"><![CDATA[DRAG AND RELEASE]]></copy>
+				<copy name="loading_loaded" x="0" y="0"><![CDATA[CP3 EXPERIENCE LOADED]]></copy>
+				<copy name="loading_complete" x="0" y="0"><![CDATA[LOADING COMPLETE]]></copy>
+				<copy name="replay-instructions" x="0" y="0"><![CDATA[REPLAY INSTRUCTIONS]]></copy>
+				<copy name="loader-help-percent" x="0" y="0"><![CDATA[LOADING]]></copy>
+				<copy name="loader-percent-dot" x="0" y="0"><![CDATA[LOADING...]]></copy>
+				<copy name="loader-percent" x="0" y="0"><![CDATA[%]]></copy>
+				<copy name="loading-ball-in" x="0" y="0"><![CDATA[BALL IN]]></copy>
+			</copies>
+		</section>
+		
+		<section name="summary">
+			<copies>
+				<copy name="summary-header" x="356" y="205"><![CDATA[YOU HAVE UNLOCKED%OF CP3ON3 INVITATIONAL CONTENT]]></copy>
+				<copy name="summary-bonus-scenes" x="40" y="36"><![CDATA[BONUS SCENES]]></copy>
+				<copy name="summary-bonus-content" x="40" y="225"><![CDATA[BONUS CONTENT]]></copy>
+				<copy name="summary-buy" x="23" y="0"><![CDATA[BUY NOW]]></copy>
+				<copy name="summary-quick" x="18" y="0"><![CDATA[QUICKNESS REVEALED]]></copy>
+				<copy name="summary-exit-button" x="18" y="0"><![CDATA[CONTINUE EXPLORING]]></copy>
+			</copies>
+		</section>
+		
+		<section name="exit_buttons">
+			<copies>
+				<copy name="summary-ball-in" x="356" y="202"><![CDATA[BALL IN]]></copy>
+				<copy name="summary-continue" x="19" y="45"><![CDATA[CONTINUE EXPLORING]]></copy>
+				<copy name="summary-back" x="19" y="244"><![CDATA[BACK]]></copy>
+				<copy name="summary-close" x="19" y="244"><![CDATA[CLOSE]]></copy>
+				<copy name="help-exit" x="356" y="334"><![CDATA[BACK TO PLAY]]></copy>
+			</copies>
+		</section>
+		
+		<section name="wallpaper">
+			<copies>
+				<copy name="wallpaper-title" x="316" y="54"><![CDATA[CP3 DOWNLOADS]]></copy>
+				<copy name="wallpaper-thumb" x="362" y="19"><![CDATA[WALLPAPER]]></copy>
+			</copies>
+		</section>
+		
+		<section name="email">
+			<copies>
+				<copy name="email-header" x="150" y="68"><![CDATA[SEND AN EMAIL]]></copy>
+				<copy name="email-desc" x="0" y="92"><![CDATA[SEND YOUR FRIENDS AN EMAIL AND GIVE THEM A<br/>CHANCE TO CONTROL THE CP3 EXPERIENCE FOR THEMSELVES.]]></copy>
+				<copy name="email-name" x="19" y="244"><![CDATA[YOUR FIRST NAME:]]></copy>
+				<copy name="email-address" x="19" y="244"><![CDATA[YOUR EMAIL ADDRESS:]]></copy>
+				<copy name="email-friends" x="19" y="244"><![CDATA[FRIEND'S EMAIL ADDRESS:]]></copy>
+				<copy name="email-message" x="19" y="244"><![CDATA[LEAVE A MESSAGE]]></copy>
+				<copy name="email-optional" x="19" y="45"><![CDATA[(OPTIONAL)]]></copy>
+				<copy name="email-copy" x="0" y="465"><![CDATA[COPY LINK]]></copy>
+				<copy name="email-copied" x="0" y="465"><![CDATA[LINK COPIED]]></copy>
+				<copy name="email-send" x="0" y="459"><![CDATA[SEND]]></copy>
+				<copy name="email-exit" x="0" y="538"><![CDATA[CLOSE]]></copy>
+				<copy name="email-title" x="0" y="0"><![CDATA[Jordan CP3]]></copy>
+				<copy name="email-subject" x="0" y="0"><![CDATA[Check out Jordan CP3 at Jumpman23.com]]></copy>
+				<copy name="email-link" x="0" y="0"><![CDATA[http://www.nike.com/jumpman23/footwear/all/469786-006.html?cid469786-006]]></copy>
+				<copy name="email-sending" x="0" y="130"><![CDATA[SENDING...]]></copy>
+				<copy name="email-success" x="0" y="130"><![CDATA[THANKS FOR SHARING THE CP3 EXPERIENCE WITH YOUR FIREND]]></copy>
+				<copy name="email-fail" x="0" y="130"><![CDATA[PLEASE TRY AGAIN]]></copy>
+			</copies>
+		</section>
+		
+		<section name="help">
+			<copies>
+				<copy name="help-angles-title" x="0" y="69"><![CDATA[EXPLORE ANGLES]]></copy>
+				<copy name="help-angles-desc" x="0" y="108"><![CDATA[PICK YOUR PERFECT ANGLE.<br/>CLICK AND DRAG YOUR MOUSE TO MOVE<br/>AROUND THE COURT WHEREVER YOU WANT.]]></copy>
+				<copy name="help-angles-instruction" x="0" y="247"><![CDATA[DRAG AND RELEASE]]></copy>
+				<copy name="help-time-title" x="0" y="69"><![CDATA[CONTROL TIME]]></copy>
+				<copy name="help-time-desc" x="0" y="108"><![CDATA[HOLD 'SHIFT' AND THEN CLICK AND DRAG <br />TO THE LEFT (REWIND) OR RIGHT (FAST FORWARD)<br />TO ANY POINT IN THE VIDEO.]]></copy>
+				<copy name="help-time-instruction" x="135" y="247"><![CDATA[DRAG AND RELEASE]]></copy>
+				<copy name="help-zoom-title" x="0" y="69"><![CDATA[ZOOM]]></copy>
+				<copy name="help-zoom-desc" x="0" y="108"><![CDATA[THE UP AND DOWN ARROW KEYS<br />CAN BEUSED TO ZOOM IN AND OUT]]></copy>
+			</copies>
+		</section>
+		
+		<section name="lower_nav">
+			<copies>
+				<copy name="locks-bonus-content" x="64" y="8"><![CDATA[BONUS CONTENT]]></copy>
+				<copy name="locks-see-stats" x="64" y="8"><![CDATA[SEE MY STATS]]></copy>
+				<copy name="locks-unlocked" x="57" y="22"><![CDATA[0]]></copy>
+				<copy name="locks-slash" x="69" y="22"><![CDATA[/]]></copy>
+				<copy name="locks-total" x="78" y="22"><![CDATA[10]]></copy>
+				<copy name="help-title" x="43" y="14"><![CDATA[HELP]]></copy>
+				<copy name="settings-title" x="39" y="14"><![CDATA[SETTINGS]]></copy>
+				<copy name="share-title" x="40" y="14"><![CDATA[SHARE]]></copy>
+				<copy name="twitter-title" x="38" y="9"><![CDATA[TWITTER]]></copy>
+				<copy name="facebook-title" x="21" y="9"><![CDATA[FACEBOOK]]></copy>
+				<copy name="send-an-email-title" x="31" y="9"><![CDATA[SEND AN EMAIL]]></copy>
+				<copy name="commentary-title" x="4" y="8"><![CDATA[CP'S COMMENTARY]]></copy>
+				<copy name="commentary-on" x="3" y="0"><![CDATA[ON]]></copy>
+				<copy name="commentary-off" x="11" y="0"><![CDATA[OFF]]></copy>
+				<copy name="real-time" x="27" y="8"><![CDATA[REAL-TIME]]></copy>
+				<copy name="nav-high-bandwidth" x="39" y="9"><![CDATA[HIGH BANDWIDTH]]></copy>
+				<copy name="nav-low-bandwidth" x="39" y="9"><![CDATA[LOW BANDWIDTH]]></copy>
+			</copies>
+		</section>
+		
+		<section name="end_screen">
+			<copies>
+				<copy name="end-spacebar" x="0" y="0"><![CDATA[HIT "SPACEBAR" TO SEE WHAT<br/>IT'S LIKE TO GUARD CP3 IN REAL TIME]]></copy>
+			</copies>
+		</section>
+		
+	
+		<section name="landing">
+			<title name="welcome_title" x="100" y="100"><![CDATA[WELCOME TO THE CP3ON3 INVITATIONAL]]></title>
+			<header name="welcome_header" x="100" y="100"><![CDATA[IT'S POINT-GAME AND CP3'S GOT THE BALL IN HIS HANDS.<br/>CLICK TO EXPLORE THE GAME IN A WHOLE NEW WAY AND SEE HOW CHRIS<br/>USES HIS QUICKNESS TO CONTROL WHAT'S HAPPENING, ON AND OFF THE COURT.]]></header>
+			<desc name="welcome_desc" x="100" y="100"><![CDATA[LOADING THE CP3 EXPERIENCE...]]></desc>
+			<navs>
+					<nav title="CHOOSE YOUR CONNECTION" x="100" y="100">
+						<subnav x="100" y="100"><![CDATA[HIGH BANDWIDTH]]></subnav>
+						<subnav x="100" y="100"><![CDATA[LOW BANDWIDTH]]></subnav>
+					</nav>
+			</navs>
+		</section>
+		
+		<section name="upper_nav">
+			<title x="100" y="100"><![CDATA[3on3.Vid]]></title>
+			<header x="100" y="100"><![CDATA[CP3.V]]></header>
+		</section>
+		
+		
+		<section name="lower_nav">
+			<navs>
+					<nav title="HELP" x="100" y="100"></nav>
+					<nav title="SETTINGS" x="100" y="100">
+						<subnav x="100" y="100"><![CDATA[HIGH BANDWIDTH]]></subnav>
+						<subnav x="100" y="100"><![CDATA[LOW BANDWIDTH]]></subnav>
+					</nav>
+					<nav title="SHARE" x="100" y="100">
+						<subnav x="100" y="100"><![CDATA[TWITTER]]></subnav>
+						<subnav x="100" y="100"><![CDATA[FACEBOOK]]></subnav>
+						<subnav x="100" y="100"><![CDATA[SEND AN EMAIL]]></subnav>
+					</nav>
+					<nav title="SOUND"></nav>
+			</navs>
+		</section>
+		
+		<section name="help">
+			<navs>
+					<nav title="EXPLORE ANGLES" x="100" y="100">
+						<subnav x="100" y="100"><![CDATA[PICK THE PERFECT ANGLE.<br/>CLICK AND DRAG YOUR MOUSE TO VIEW<br/>THE COURT 160 DEGREES AROUND.]]></subnav>
+						<subnav x="100" y="100"><![CDATA[DRAG AND RELEASE]]></subnav>
+					</nav>
+					<nav title="TIME CONTROL">
+						<subnav x="100" y="100"><![CDATA[TO TOGGLE ON SCRUBBING MODE, HOLD<br/>'SHIFT', THEN CLICK AND DRAG TO THE<br/>LEFT (REWIND) OR RIGHT (FAST FORWARD).]]></subnav>
+						<subnav x="100" y="100"><![CDATA[DRAG AND RELEASE]]></subnav>
+					</nav>
+					<nav title="ZOOM">
+						<subnav x="100" y="100"><![CDATA[ARROW KEYS CAN BE USED TO TOGGLE<br/>ZOOM CONTROL. HITTING UP WILL ZOOM IN<br/>AND DOWN WILL ZOOM BACK OUT.]]></subnav>
+					</nav>
+					<nav title="BACK TO PLAY" x="100" y="100"></nav>
+			</navs>
+		</section>
+		
+		<section name="summary">
+			<title x="100" y="100"><![CDATA[YOU HAVE UNLOCKED%OF CP3ON3 INVITATIONAL CONTENT]]></title>
+			<navs>
+					<nav title="BONUS SCENES" x="100" y="100"></nav>
+					<nav title="BONUS CONTENT" x="100" y="100"></nav>
+					<nav title="CONTINUE EXPLORING" x="100" y="100"></nav>
+					<nav title="BUY THE SHOES" x="100" y="100"></nav>
+					<nav title="JORDAN CP3.V - QUICK MOVES" x="100" y="100"></nav>
+			</navs>
+		</section>
+		
+	</sections>
+
+	<hotspots>
+	
+		<scenes>
+			<hotspot 
+				name="kiss"
+				type="scene"
+				icon=""
+				thumbURL="./flash/images/summary_scene_thumb_kiss.png"
+				>
+				<desc><![CDATA[]]></desc>		
+			</hotspot>
+			<hotspot 
+				name="chef"
+				type="scene"
+				icon=""
+				thumbURL="./flash/images/summary_scene_thumb_chef.png"
+				>
+				<desc><![CDATA[]]></desc>		
+			</hotspot>
+			<hotspot 
+				name="horse"
+				type="scene"
+				icon=""
+				thumbURL="./flash/images/summary_scene_thumb_horse.png"
+				>
+				<desc><![CDATA[]]></desc>		
+			</hotspot>
+		</scenes>
+		
+		<content>
+			<hotspot 
+				name="horsebonus"
+				type="vignette"
+				category="HORSE ON GREEN"
+				short_title="Horse"
+				long_title="Green Screen"
+				icon="video"
+				>
+				<desc><![CDATA[]]></desc>		
+			</hotspot>
+			<hotspot 
+				name="vintage"
+				type="vignette"
+				category="SNEAKER"
+				short_title="VINTAGE KICKS"
+				long_title="CP3.III VINTAGE SNEAKERS"
+				icon="shoe"
+				>
+				<desc><![CDATA[ec malesuada faucibus accumsan. Nulla convallis<br/>sollicitudin justo nec porttitor. Nam massa dui, venenatis at
+								<br/>gravida sed, imperdiet quis dui.<br/><br/><br/>Pellentesque facilisis dapibus ipsum eu viverra. Aliquam
+								<br/>feugiat quam at ipsum. Maecenas turpis nulla, venenatis in<br/>tristique quis, facilisis vitae eros. 
+								<br>Morbi cursus laoreet justo quis imperdiet. Suspendisse sollicitudin]]></desc>	
+				<navs>
+						<nav name="vintage_sneaker">
+							<item
+								imageURL="./flash/images/cp3_cp1_sneaker.png" 
+							>
+								<title><![CDATA[JORDAN CP3.I]]></title>
+								<desc><![CDATA[A Dual Traction Pattern, combining "C" and herringbone elements, helps CP to cut, cross, spin and slash through any defense.<br/><br/>The pin detail on the ankle is a tribute to CP’s obsession with bowling…believe it.]]></desc>
+							</item>
+							<item
+								imageURL="./flash/images/cp3_cp2_sneaker.png" 
+							>
+								<title><![CDATA[JORDAN CP3.II ]]></title>
+								<desc><![CDATA[Forefoot Zoom Air provides the responsive cushioning CP needs for running off screens and crossing-over defenders.<br/><br/>CP drags his toes during change-up moves, so the 3.II has special abrasion dots to enhance durability.]]></desc>
+							</item>
+							<item
+								imageURL="./flash/images/cp3_cp3_sneaker.png" 
+							>
+								<title><![CDATA[JORDAN CP3.III]]></title>
+								<desc><![CDATA[A raised hexagonal traction pattern with strategic flex grooves lets Chris rip into the hardwood for defense-shattering cuts.<br/><br/>CP and his family are represented in the laser-etched coat-of-arms icons gracing the upper of the CP3.III.]]></desc>
+							</item>
+							<item
+								imageURL="./flash/images/cp3_cp4_sneaker.png" 
+							>
+								<title><![CDATA[JORDAN CP3.IV ]]></title>
+								<desc><![CDATA[Carbon fiber support shank plate enhances CP’s terrifyingly quick first step.<br/><br/>The star graphic on the insole represents CP’s attributes of quickness, heart, faith, family, leadership and community.]]></desc>
+							</item>
+						</nav>
+				</navs>
+			</hotspot>
+			<hotspot 
+				name="soda"
+				type="content"
+				category="QUICK THOUGHT"
+				short_title="THIRSTY"
+				long_title="THIRSTY"
+				icon="message"
+				>
+				<desc><![CDATA[Doc Rivers was the first NBA coach to get a sports drink shower]]></desc>		
+			</hotspot>
+			<hotspot 
+				name="blond"
+				type="vignette"
+				category="DANCING"
+				short_title="Dance 1"
+				long_title="Check The Moves 1"
+				icon="video"
+				>
+				<desc><![CDATA[]]></desc>		
+			</hotspot>
+			<hotspot 
+				name="meal"
+				type="content"
+				category="QUICK THOUGHT"
+				short_title="HUNGRY"
+				long_title="HUNGRY"
+				icon="message"
+				>
+				<desc><![CDATA[May is National Barbecue Month]]></desc>		
+			</hotspot>
+			<hotspot 
+				name="gospel"
+				type="content"
+				category="QUICK THOUGHT"
+				short_title="MUSIC"
+				long_title="MUSIC"
+				icon="message"
+				>
+				<desc><![CDATA["The Jock Jam" is the best selling sports mash-up of all time]]></desc>		
+			</hotspot>
+			<hotspot 
+				name="3.5"
+				type="vignette"
+				category="SNEAKER"
+				short_title="CP's FIFTH"
+				long_title="CP3.5 NEW SHOES"
+				icon="shoe"
+				>
+				<desc><![CDATA[]]></desc>	
+				<navs>	
+						<nav name="cp3_shoe">
+							<item
+								imageURL="./flash/images/cp3_cp5_sneaker.png" 
+							>
+								<title><![CDATA[JORDAN CP3.V SHOE]]></title>
+								<desc><![CDATA[61 zonal cut outs cool CP’s jets through four quarters and equal the points he scored in a high school game to honor his late grandfather.<br/><br/>One-piece sandwich-mesh tongue improves comfort when CP’s runs the floor and features five perforations to celebrate his fifth signature kicks.]]></desc>
+							</item>
+						</nav>
+				</navs>
+			</hotspot>
+			<hotspot 
+				name="assist"
+				type="content"
+				category="QUICK THOUGHT"
+				short_title="DIMES"
+				long_title="DIMES"
+				icon="message"
+				>
+				<desc><![CDATA[CP averages 9.9 assists per game, 3rd in league history]]></desc>		
+			</hotspot>
+			<hotspot 
+				name="jordan"
+				type="vignette"
+				category="DANCING"
+				short_title="Dance 2"
+				long_title="Check The Moves 2"
+				icon="video"
+				>
+				<desc><![CDATA[]]></desc>		
+			</hotspot>
+			<hotspot 
+				name="steals"
+				type="content"
+				category="QUICK THOUGHT"
+				short_title="STEALS"
+				long_title="STEALS"
+				icon="message"
+				>
+				<desc><![CDATA[CP has the record for consecutive games with a steal (108)]]></desc>		
+			</hotspot>
+			<hotspot 
+				name="wallpaper"
+				type="vignette"
+				category="WALLPAPER"
+				short_title="PHOTO"
+				long_title="PHOTO"
+				icon="camera"
+				>
+				<desc><![CDATA[]]></desc>
+				<navs>
+						<nav name="wallpaper_images">
+							<item
+								name="cp"
+								thumbURL="./flash/images/cp3_wallpaper_thumb_0.jpg"
+								imageURL="./flash/images/cp3_wallpaper_preview_0.jpg" 
+							/>
+							<item
+								name="horse"
+								thumbURL="./flash/images/cp3_wallpaper_thumb_1.jpg"
+								imageURL="./flash/images/cp3_wallpaper_preview_1.jpg"
+							/>
+							<item
+								name="chef"
+								thumbURL="./flash/images/cp3_wallpaper_thumb_2.jpg"
+								imageURL="./flash/images/cp3_wallpaper_preview_2.jpg" 
+							/>
+						</nav>		
+						<nav name="desktop">
+							<item 
+								name="1024x768"
+								url="./flash/zip/CP3on3_1024x768" 
+							/>
+							<item 
+								name="1280x1024"
+								url="./flash/zip/CP3on3_1280x1024" 
+							/>
+							<item 
+								name="1440x900"
+								url="./flash/zip/CP3on3_1440x900" 
+							/>
+							<item 
+								name="1680x1050"
+								url="./flash/zip/CP3on3_1680x1050" 
+							/>
+							<item 
+								name="1920x1200"
+								url="./flash/zip/CP3on3_1920x1200" 
+							/>
+						</nav>	
+						<nav name="iphone">
+							<item 
+								name="640x960"
+								url="./flash/zip/CP3on3_iPhone_640x960" 
+							/>
+						</nav>
+						<nav name="ipad">
+							<item 
+								name="768x1024"
+								url="./flash/zip/CP3on3_iPad_768x1024" 
+							/>
+							<item 
+								name="1024x768"
+								url="./flash/zip/CP3on3_iPad_1024x768" 
+							/>
+						</nav>
+						<nav name="twitter">
+							<item 
+								name="1920x1200"
+								url="./flash/zip/CP3on3_twitter_1920x1200" 
+							/>
+						</nav>
+				</navs>
+			</hotspot>
+		</content>
+		<eggs>
+			<hotspot
+				name="konami"
+				type="vignette"
+				category="DANCE OFF!"
+				short_title="CODE"
+				long_title="KONAMI CODE EASTER EGG"
+				icon="keyboard"
+				>
+				<desc><![CDATA[]]></desc>
+				<navs>	
+						<nav name="konami_images">
+							<item
+								imageURL="./flash/images/boy.png" 
+							/>
+							<item
+								imageURL="./flash/images/girl.png"
+							/>
+						</nav>
+				</navs>		
+			</hotspot>
+			<!--
+			<hotspot
+				name="cp_voice_over"
+				type="audio"
+				category="COMMENTARY"
+				short_title="CP3 COMMENTARY"
+				long_title="CP VOICE OVER"
+				icon="keyboard"
+				>
+				<desc><![CDATA[]]></desc>		
+			</hotspot>
+			 -->
+			<hotspot
+				name="green_screen"
+				type="video"
+				category="SNEAK A PEEK"
+				short_title="GREEN SCREEN"
+				long_title="CP GREEN SCREEN"
+				icon="video"
+				>
+				<desc><![CDATA[]]></desc>			
+			</hotspot>
+		</eggs>
+		
+	</hotspots>
+	
+	<styles>
+		 	<style	
+		 		name="welcome_title"
+		 		font="Interstate Black"
+		 		size="22"
+		 		color="d7270a"
+		 		colorAlt=""
+		 		alignment="center"
+		 	/>
+		 	<style	
+		 		name="welcome_header"
+		 		font="Interstate Regular"
+		 		size="13"
+		 		color="898989"
+		 		colorAlt=""
+		 		alignment="center"
+		 	/>
+		 	<style	
+		 		name="welcome_desc"
+		 		font="Interstate Black"
+		 		size="14"
+		 		color="FFFFFF"
+		 		colorAlt=""
+		 		alignment="center"
+		 	/>
+		 	<style	
+		 		name="welcome_bandwidth"
+		 		font="Interstate Regular"
+		 		size="14"
+		 		color="FFFFFF"
+		 		colorAlt="464646"
+		 		alignment="left"
+		 	/>
+		 	<style	
+		 		name="menu_back"
+		 		font="Interstate Black"
+		 		size="18"
+		 		color="FFFFFF"
+		 		colorAlt="d7270a"
+		 		alignment="left"
+		 	/>
+	</styles>
+	
+</data>

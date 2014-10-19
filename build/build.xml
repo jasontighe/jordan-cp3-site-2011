@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<project name="JordanCP" default="main" basedir="">
+	
+	<description>Jordan CP 3 on 3 Invitational</description>
+	
+ 	<!-- Check for the build.properties file and force the user to create one before compiling. -->
+	<available file="build.properties" filePath="${basedir}" property="customBuildPropertiesExist" />
+	<fail unless="customBuildPropertiesExist" message="You must create a file called 'build.properties' with your local settings in order to use ant with this project." />
+	<property file="build.properties" />
+
+	<!-- Echo back externally-loaded properties -->
+	<echo message="Successfully loaded properties." />
+	<echo>flex home: ${FLEX_HOME}</echo>
+	<echo>global libs: ${GLOBAL_LIBS}</echo>
+	<echo>${build.properties}</echo>
+
+	<!-- Format timestamp -->
+	<tstamp>
+		<format property="build.time" pattern="MM-dd-yyyy, HH:mm:ss" unit="second" />
+		<format property="build.date" pattern="MMddyyyy" unit="day" />
+	</tstamp>
+	
+	<!-- Configure output filename -->
+	<property name="VIRTUALHOST" 	    value="http://cp.wk.nike.com" />
+	<!--
+	<property name="PAGE_NAME" 	    	value="shell_${build.date}" />
+	-->
+	<property name="PAGE_NAME" 	    	value="Shell" />
+	<property name="DELIVERY_NAME" 	   	value="jordancp_deployment_${build.date}" />
+	<property name="build.src.main" 	location="${build.src}/com/jordan/cp/Shell.as" />
+	<property name="build.deploy.main" 	location="${build.deploy}/${PAGE_NAME}.swf" />
+	<property name="build.version" 		value="1" />
+
+	<taskdef file="${FLEX_TASKS}/flexTasks.tasks" classpath="${FLEX_TASKS}/lib/flexTasks.jar" />
+
+	<echo>${build.date}</echo>
+	<echo>${ant.project.name} : Version ${build.version}.v${build.number} (${build.time})</echo>
+
+	<!-- UPDATE COUNTER FOR NUMBER OF TIMES THIS BUILD HAS BEEN RUN -->
+	<buildnumber />
+
+	<!-- RUN DIAGNOSTICS DURING BUILD
+	<diagnostics/>
+	-->
+
+
+	
+	
+	<!-- ********************************** -->
+
+	<!-- Builds -->
+
+	<!-- ********************************** -->
+
+	<!-- DEFAULT/ALL -->
+	<target name="main" depends="compileMain, package, generateDocs" description="Creates the swf and packages delivery zip">
+		<echo>Done.</echo>
+	</target>
+
+
+	
+	<!-- COMPILE (FASTER) -->
+	<target name="compileMain" depends="clearLog, launchBrowser">
+	    <exec executable="${MXMLC}">
+	        <arg line="
+    			-source-path '${build.src}' 
+    			-library-path '${FLEX_LIB}' 
+    			-external-library-path ${build.lib}
+
+	        	-default-frame-rate=${framerate} 
+    			-default-background-color=${bgcolor} 
+    			-default-size ${width} ${height} 
+
+    			-strict=true '${build.src.main}' 
+    			-output '${build.deploy.main}'
+
+    			-link-report link-report.xml 
+		    	-omit-trace-statements=false 
+		    	-debug=true 
+		    	-target-player=10.1.0 
+
+    			-define=CONFIG::INVERT,false 
+		    	-define+=CONFIG::TEST,false	    
+	        	" />
+	    </exec>
+	</target> 
+
+	
+	
+	<!-- COMPILE (SEEMS 2x SLOWER) -->
+	<target name="z-compileMainSlow" depends='clearLog, launchBrowser'>
+		<echo>Compiling main</echo>
+		<mxmlc file="${build.src.main}" 
+				output="${build.deploy.main}" 
+				static-link-runtime-shared-libraries="true" 
+				keep-generated-actionscript="false" 
+				actionscript-file-encoding="UTF-8" 
+				use-network="true" 
+				debug="true" 
+				optimize="true" 
+				incremental="false"
+				default-frame-rate="${framerate}">
+
+			<load-config filename="${FLEX_CONFIG}" />
+			<source-path path-element="${FLEX_HOME}/frameworks" />
+			<source-path path-element="${build.src}" />
+			<source-path path-element="${build.lib}" />
+			<source-path path-element="${GLOBAL_LIBS}" />
+			<library-path dir="${build.lib}" append="true">
+				<include name="*.swc" />
+			</library-path>
+			
+			<!-- DEFINE COMPILER CONSTANTS
+			<define name="CONFIG::debugging" value="false"/>
+			<define name="CONFIG::TEST" value="false"/>
+			<define name="CONFIG::UK" value="false"/>
+			<define name="CONFIG::US" value="true"/>
+			-->	
+		</mxmlc>
+	</target>
+
+	
+	
+	<!-- CLEAR DEBUG LOG -->
+    <target name="clearLog">
+        <concat destfile="${log.path}">.: FLASHLOG RESET :.</concat>
+    		<!--
+            <exec executable="open">
+            	<arg line="-a console '${log.path}'" />
+            </exec>
+            -->
+    </target>
+
+
+	
+	<!-- LAUNCH BROWSER -->
+    <target name="launchBrowser">
+        <exec executable="open">
+            <arg line="-a ${browser} ${VIRTUALHOST}" />
+        </exec>
+    </target>
+
+
+	
+    <!-- PACKAGE SPECIFIC ITEMS INTO ZIP -->
+	<target name="package" depends="">
+
+		<!-- ERASES EXISTING BUNDLE DIRECTORY PRIOR TO RE-WRITING -->
+	    <delete includeemptydirs="true">
+	        <fileset dir="${build.bundle}" />
+	    </delete>
+
+		<!-- CREATES NEW BUNDLE DIRECTORY -->
+		<copy overwrite="false" todir="${build.bundle}">
+	        <fileset dir="${build.deploy}">
+		        <!-- CAN USE <include> NODES AS WELL -->
+	            <exclude name="**/*.DS_Store" />
+	            <exclude name="**/*.svn/**" />
+	            <exclude name="**/*.html/**" />
+	            <exclude name="**/*.xml/**" />
+	            <exclude name="**/img/**" />
+	            <exclude name="**/swf/**" />
+	            <exclude name="**/xml/**" />
+	        	<!--
+	            <exclude name="**/.settings/**" />
+	            <exclude name="**/*.as3_classpath"/>
+	            <exclude name="**/*.project"/>
+	            <exclude name="**/*.zip/**" />
+	            <exclude name="**/*.number/**" />
+	            -->
+	        </fileset>
+	        <fileset dir="${build.deploy}">
+	        	<include name="index.html" />
+	        </fileset>
+	    </copy>
+		<copy overwrite="false" todir="${build.bundle}/flash/xml">
+	        <fileset dir="${build.deploy}/flash/xml">
+		        <!-- CAN USE <include> NODES AS WELL -->
+	            <exclude name="**/*.DS_Store" />
+	            <exclude name="**/*.svn/**" />
+	            <exclude name="**/_archive/**" />
+	        </fileset>
+	    </copy>
+
+	    <zip file="${build.delivery}/${DELIVERY_NAME}.zip">
+	        <fileset dir="${build.bundle}/">
+	        </fileset>
+	    </zip>
+
+	</target>
+
+	
+	
+ 	<!-- GENERATE DOCUMENTS USING ASDoc -->
+    <target name="generateDocs">
+        <delete includeemptydirs="true">
+            <fileset dir="${build.docs}" includes="**/*" />
+        </delete>
+        <exec executable="${ASDOC}" spawn="true">
+            <arg line="-doc-sources '${build.src}' 
+		            	-output '${build.docs}' 
+		            	-main-title 'Your App API' 
+		            	-window-title 'Your App API'" />
+        </exec>
+    </target>
+	
+	
+	
+	
+
+
+<!-- 
+ 	BATCH COMPILE ALL FLAS IN A DIRECTORY
+	<target name="compileAssets">
+	    <fdt.flashCompile>
+	    	<fileset dir="${baseDir}">
+	    		<include name="/*.fla" />
+	    	</fileset>
+	    </fdt.flashCompile>
+	</target> 
+
+	COMPILE FLA ATTEMPTS
+	<target name="compileAssets">
+	    <flashcompile file="${baseDir}/src/Assets.fla" timeout="5000">
+	    </flashcompile>
+	</target> 
+
+
+	<target name="compileRich">
+	    <fdt.flashCompile file="${baseDir}/src/Richload.fla" />
+	</target> 
+ --> 
+
+</project>

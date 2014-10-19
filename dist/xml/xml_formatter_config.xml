@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<url id='master' path='../xml/hotspots_base.xml'></url>
+	<url id='source' path='../xml/rev.xml'></url>
+	
+	<!-- blank index places node at the last position 
+		 id places node above id position
+	-->
+	<target id="jordan" index="steals" remove="false" />
+</data>

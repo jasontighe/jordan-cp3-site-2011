@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+	<head>
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Jordan Chris Paul : Shell</title>
+		
+		<link rel="stylesheet" href="./css/jordan_index.css" type="text/css" charset="utf-8" />
+		 <script language="JavaScript">
+		     var jsReady = false;
+		     
+		     function isReady() 
+		     {
+		         return jsReady;
+		     }
+		     
+		     function pageInit() 
+		     {
+		         jsReady = true;
+		         document.forms["form1"].output.value += "\n" + "JavaScript is ready.\n";
+		     }
+		     
+		     function thisMovie(movieName) {
+		         if (navigator.appName.indexOf("Microsoft") != -1)  {
+		             return window[movieName];
+		         } 
+		         else   {
+		             return document[movieName];
+		         }
+		     }
+
+		     function tellJSBridgeComplete() {
+			     
+		     }
+
+		     function revealShareFooter() {
+		    	 
+		     }
+
+		     function doSocial( value1, value2 ) {
+		    	 alert("doSocial "+value1 + " " + value2 );
+		     }
+		     
+		     function sendToActionScript(value) {
+		         thisMovie("flashContent").sendToActionScript(value);
+		     }
+		     
+		     function sendToJavaScript(value) {
+		         document.forms["form1"].output.value += "ActionScript says: " + value + "\n";
+		     }    
+		 </script>
+		
+		</head>
+	
+	<body onload="pageInit();">
+	
+		<script type="text/javascript" src="./js/swfobject.js"></script>
+		
+		<script type="text/javascript">	
+				
+			var flashvars = {};
+			flashvars.CONFIG = "./flash/xml/config.xml";
+				
+			var params = {};
+			params.menu = "false";
+			params.quality = "high";
+			params.scale = "noscale";
+			params.salign = "tl";
+			params.wmode = "window";
+			params.bgcolor = "#FFFFFF";
+			params.allowFullScreen = "true";
+			params.allowscriptaccess = "always";
+						
+			var attributes = {};
+				
+			swfobject.embedSWF("./Shell.swf", "flashContent", "100%", "100%", "9.0.0", "./flash/swf/expressInstall.swf", flashvars, params, attributes);
+			
+		</script>
+		
+		<div id="container">
+		
+			<div id="flashContent">
+			
+			</div>
+			
+		</div>
+	
+	</body>
+
+</html>
